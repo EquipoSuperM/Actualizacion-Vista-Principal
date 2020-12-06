@@ -33,7 +33,7 @@
     <div id="nav">
         <ul>
 
-            <li><a href="<?php echo constant('URL'); ?>main">Inicio</a></li>
+            <li><a href="<?php echo constant('URL'); ?>main">Logo</a></li>
             <li><a href="<?php echo constant('URL'); ?>nuevo">Productos</a></li>
             <li><a href="<?php echo constant('URL'); ?>consulta">Informacion</a></li>
             <li><a href="<?php echo constant('URL'); ?>ayuda">Ayuda</a></li>
