@@ -1,6 +1,6 @@
 <?php
 
-class Alumno{
+class Usuario{
 
     public $matricula;
     public $nombre;

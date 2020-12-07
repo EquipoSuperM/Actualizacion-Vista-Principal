@@ -26,7 +26,7 @@
      <h1>SuperM <span class="note">.com</span>
         <input type="search" id="miBusqueda" name="busqueda" style="font.size:50%" placeholder="Buscar Producto"><button> </button>
         </h1> 
-        <h4><a >Iniciar Sesión</a>/<a>Regístrate</a> </h4>    
+        <h4><a href="<?php echo constant('URL'); ?>main">Iniciar Sesiòn</a></li>/<a href="<?php echo constant('URL'); ?>ayuda">Registrate</a> </h4>    
 
     </div>
    
@@ -35,14 +35,11 @@
 
             <li><a href="<?php echo constant('URL'); ?>main">Logo</a></li>
             <li><a href="<?php echo constant('URL'); ?>nuevo">Productos</a></li>
-            <li><a href="<?php echo constant('URL'); ?>consulta">Informacion</a></li>
-            <li><a href="<?php echo constant('URL'); ?>ayuda">Ayuda</a></li>
+            <li><a href="<?php echo constant('URL'); ?>consulta">Seguimiento de Pedidos</a></li>
+            <li><a href="<?php echo constant('URL'); ?>ayuda">Super en tu Casa</a></li>
         </ul>
     </div>
-    <img src="file:///Z:/imagen.jpg" alt="prueba" />
-    <div id="imagen" onClick="this.style.backgroundImage='url(file:///C:\Users\HP\Documents/imagen.jpg)'"></div>
-    
-    <img src="C:\Users\HP\Documents/imagen.jpg" alt="prueba" style="width:100px;height:200px; border:0;" >
+ 
    
 </body>
 </html>
