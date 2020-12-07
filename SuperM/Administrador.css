@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0; /*espacio que hay entre un objeto y el texto*/
+}
+/* 16=12pt=100%=1em*/
+body{
+    background: #fff;
+    color: #fff;
+    font-family: "Segoe UI Emoji";
+    font-size: 2em;
+   
+}
+
+
+h2{
+    color:#0E0E0F;
+    margin: 0.25em auto;
+    font-family: "Segoe UI Emoji";
+    text-align: left;
+    /*sombre*/
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.3);
+}
+h5{
+    color:#0E0E0F;
+    margin: 0.25em auto;
+    text-align: right;
+    font-family: "Segoe UI Emoji";
+    /*sombre*/
+   
+}
+header{
+    background: #FFD856;
+     border-radius: 0em;
+    margin: 0em auto;
+    max-width: 2000px;
+    padding: 0em;
+    min-height: 50px;
+    text-align: center;
+}
+nav{
+    background:#FFB039;
+     border-radius: 0em;
+    margin: 0em auto;
+    max-width: 2000px;
+    padding: 0.25em;
+    min-height: 50px;
+    text-align: center;
+}
+
+
+section#principal,aside{
+    background: #C4CBD4;
+    border-radius: 0em;
+    min-height: 600px;
+    max-width: 2000px;
+    padding: 0.25em;
+    text-align: center;
+    margin: 0.5em auto;
+    text-align: center;
+}
+.iframe2{
+    background: #C4CBD4;
+    border-radius: 0em;
+    min-height: 600px;
+    max-width: 2000px;
+    padding: 0.25em;
+    text-align: center;
+    margin: 0.5em auto;
+    text-align: center;
+
+}
+article{
+    background: #fff;
+    border-radius: 0em;
+    min-height: 500px;
+    max-width: 2000px;
+    padding: 0.25em;
+}
+aside{
+    width: 30%;
+}
+footer{
+    background: #FFD856;
+    border-radius: 0em;
+    margin: 0em auto;
+    max-width: 2000px;
+    padding: 0em;
+    min-height: 50px;
+    text-align: center;
+
+   
+}
+ button {
+    background-color: #C4CBD4; 
+    border: none;
+    color: white;
+    max-width: 5em;
+    min-height: 3em;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+  .mini{
+    font-family: "Segoe UI Emoji";
+    text-align: right;
+    font-size: 80%;
+  }
+.ima{
+    width:90px;height:60px
+}
+.title{
+  
+        color:#0E0E0F;
+        margin: 0.25em auto;
+        font-family: "Segoe UI Emoji";
+  
+}
+.nombre{
+    color:#0E0E0F;
+    margin: 0.25em auto;
+    text-align: left;
+    font-family: "Segoe UI Emoji";
+}
+.yare{
+    color:#0E0E0F;
+    margin: 0.25em auto;
+    text-align: left;
+    font-family: "Segoe UI Emoji";
+}
+.eliminarusuario{
+    background-color: #3B5998; /* Green */
+    border: none;
+    color: white;
+    max-width: 8em;
+    min-height: 3em;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+.nuevoproducto{
+    background-color: #3B5998; /* Green */
+    border: none;
+    color: white;
+    max-width: 12em;
+    min-height: 3em;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.actualizarproducto{
+    background-color: #3B5998; /* Green */
+    border: none;
+    color: white;
+    max-width: 8em;
+    min-height: 3em;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}

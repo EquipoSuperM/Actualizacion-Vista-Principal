@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #FFFFFF;
+    background-position: center;
+}
+form{
+    background: #FFFFFF;  
+    width: 400px;
+    border: 1px solid #F90E0E;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin: 100px auto;
+    
+}
+header{
+    background: #FFD856;
+    border: 1px solid #E2EBF3;
+    border-radius: 0em;
+    margin: 0em auto;
+    max-width: 400px;
+    padding: 0.25em;
+    text-align: center;
+    font-weight: 'Segoe UI Emoji';
+    font-size: 20px;
+  }
+
+nav{
+    background: #C4CBD4;
+    border: 1px solid #707070;
+    border-radius: 0.9em;
+    margin: 0.8em auto;
+    max-width: 200px;
+    padding: 0.25em;
+    text-align: center;
+    font-weight: 'Segoe UI Emoji';
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.9);
+    font-size: 12px;
+}
+  
+from input{
+    width: 280px;
+    height: 35px;
+    padding: 0px 10px;
+    color: #F90E0E;
+    text-align: center;
+}
+form button{
+    width: 100px;
+    margin: 20px 10px 30px 30px;
+    height: 30px;
+    
+}
+button {
+    background-color: #3B5998; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+  h2{
+    color:#0E0E0F;
+    margin: 0.25em auto;
+    font-family: "Segoe UI Emoji";
+    text-align: center;
+    /*sombre*/
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.3);
+}
+h5{
+    color:#0E0E0F;
+    margin: 0.25em auto;
+    font-family: "Segoe UI Emoji";
+    text-align: left;
+    font-size: 15px;
+    /*sombre*/
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.3);
+}
+  p{
+    color: rgb(8, 4, 2);
+    margin: 0.25em auto;
+    text-align: center;
+    font-weight: 'Segoe UI Emoji';
+    /*sombre*/
+    font-size: 11px;
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.10);
+}
+b{
+    color: #FFFFFF;
+    margin: 0.25em auto;
+    text-align: center;
+    /*sombre*/
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.7);
+}
+footer{
+    background: #C4CBD4;
+    border: 1px solid #707070;
+    border-radius: 0.9em;
+    margin: 0.8em auto;
+    max-width: 80px;
+    padding: 0.25em;
+    text-align: center;
+    font-weight: 'Segoe UI Emoji';
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.9);
+}
+aside{
+    background: #C4CBD4;
+    border: 1px solid #707070;
+    border-radius: 0.9em;
+    margin: 0.8em auto;
+    max-width: 80px;
+    padding: 0.25em;
+    text-align: center;
+    font-weight: 'Segoe UI Emoji';
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.9);
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0; /*espacio que hay entre un objeto y el texto*/
+}
+/* 16=12pt=100%=1em*/
+body{
+    background: #C4CBD4;
+    color: rgb(29, 28, 32);
+    font-family: "Segoe UI Emoji";
+    font-size: 2em;
+   
+}
+button {
+    background-color: #1f4a83; 
+    border: none;
+    color: white;
+    max-width: 1em;
+    min-height: 3em;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 7px;
+  }
+  lavel{
+    font-size: 20px;
+  }
+  .boton{
+    background-color: #1f4a83; 
+    border: none;
+    color: white;
+    max-width: 8em;
+    min-height: 3em;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
