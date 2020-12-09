@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="<?php echo constant('URL');?>public/css/corroborardatos.css">
     <title>Document</title>
 </head>
 <body>
@@ -33,33 +34,34 @@
 .
   </p>
        <p style="font-family:Segoe UI Emoji" >
-        <input type="email" name="email" autocomplete="off" placeholder="Nombre" > </div> 
+        <input type="email" name="email" autocomplete="off" placeholder="Nombre" >
   
        <p style="font-family:Segoe UI Emoji" >
-        <input type="email" name="email" autocomplete="off" placeholder="Apellido Paterno" > </div> 
+        <input type="email" name="email" autocomplete="off" placeholder="Apellido Paterno" > 
      
        <p style="font-family:Segoe UI Emoji" >
-        <input type="email" name="email" autocomplete="off" placeholder="Apellido Materno" > </div> 
+        <input type="email" name="email" autocomplete="off" placeholder="Apellido Materno" > 
   
        <p style="font-family:Segoe UI Emoji" >
-        <input type="email" name="email" autocomplete="off" placeholder="Correo" > </div> 
+        <input type="email" name="email" autocomplete="off" placeholder="Correo" >  
    
        <p style="font-family:Segoe UI Emoji" >
-        <input type="email" name="email" autocomplete="off" placeholder="Numero Telefonico" > </div> 
+        <input type="email" name="email" autocomplete="off" placeholder="Numero Telefonico" > 
     
        <p style="font-family:Segoe UI Emoji" >
-        <input type="email" name="email" autocomplete="off" placeholder="Direccion" > </div> 
+        <input type="email" name="email" autocomplete="off" placeholder="Direccion" >  
     
        <p style="font-family:Segoe UI Emoji" >
-        <input type="email" name="email" autocomplete="off" placeholder="Codigo Postal" > </div> 
+        <input type="email" name="email" autocomplete="off" placeholder="Codigo Postal" > 
        
        <p style="font-family:Segoe UI Emoji" >
-        <input type="email" name="email" autocomplete="off" placeholder="Ciudad" > </div> 
+        <input type="email" name="email" autocomplete="off" placeholder="Ciudad" >  
        
 
        
     <footer> 
-        <a href="C:/Users/HP/Documents/SuperM/InisiarSesion.html"> <p >Aceptar </p> </a>
+    
+    <a href="<?php echo constant('URL'); ?>iniciarsesion"> <p >Aceptar </p> </a>
     </footer>
     <aside> 
         <a href="C:/Users/HP/Documents/SuperM/Login.html"> <p >Cancelar </p> </a>
@@ -67,53 +69,8 @@
 
            </center>
 </form>
-   
-        
-            <thead > 
-                <tr >
-                    <th>Matricula</th>
-                    <th>Nombre</th>
-                    <th>Paterno</th>
-                    <th>Materno</th>
-                    <th>Telefono</th>
-                    <th>Email</th>
-                    <th>Fotografia</th>
-                    <th>OPCIONES</th> 
-                </tr>
-            </thead>
-    
-            <tbody id="tbody-alumnos">
-                <?php 
-                include_once 'models/alumno.php';
-                foreach($this->alumnos as $row){
-                    $alumno = new Alumno();
-                    $alumno = $row;
-                 ?>
 
-                <tr id="fila-<?php echo $alumno->matricula; ?>">
-                    <td><?php echo $alumno->matricula; ?></td>
-                    <td><?php echo $alumno->nombre; ?></td>
-                    <td><?php echo $alumno->apellido; ?></td>
-                    <td><?php echo $alumno->materno; ?></td>
-                    <td><?php echo $alumno->telefono; ?></td>
-                    <td><?php echo $alumno->email; ?></td>
-                    <td><img scr= "<?php echo URL.$alumno->archivo; ?>" width="100px" height="100px"></td>
-            
-              
-                   
-
-                    <td><a href="<?php echo constant('URL') . 'consulta/verAlumno/' . $alumno->matricula; ?>">Editar</a></td>
-                 <!---   <td><a href="<?php echo constant('URL') . 'consulta/eliminarAlumno/' . $alumno->matricula; ?>">Eliminar</a></td> --->
-                   <td><button class="bEliminar" data-matricula="<?php echo $alumno->matricula; ?>"> Eliminar</button></td>
-                </tr>
-
-                <?php  } ?>
-            </tbody>
-     
-    </div>
-
-        <script src="<?php echo constant('URL');?>public/js/main.js"></script>
-
+ 
     <?php require 'views/footer.php'; ?>
 </body>
 </html>

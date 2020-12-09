@@ -41,7 +41,7 @@
        <a href="https://google.com/" target="iframe"></a> <img src="C:\Users\HP\Documents\SuperM\imagenes/google.jpg" style="width:80px;height:35spx; border:0;"> </a>
  
         <footer> 
-           <a href="<?php echo constant('URL'); ?>datosusuario"> <p >Cancelar</p> </a>
+           <a href="<?php echo constant('URL'); ?>principal"> <p >Cancelar</p> </a>
         </footer>
 
            </center>

@@ -1,6 +1,6 @@
 <?php
 
-class Ayuda extends Controller{
+class registrarte extends Controller{
 
 
     function __construct(){
@@ -10,7 +10,7 @@ class Ayuda extends Controller{
     }
 
     function render(){
-        $this->view->render('ayuda/index');
+        $this->view->render('registrarte/index');
     }
 }
 
