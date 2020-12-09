@@ -46,7 +46,8 @@
 </from>
        
     <footer> 
-        <a href="C:/Users/HP/Documents/SuperM/datosusuario.html"> <p >Registrarse</p> </a>
+   
+        <a href="<?php echo constant('URL'); ?>corroborardatos"> <p >Registrarse</p> </a>
     </footer>
            </center>
 </form>

@@ -26,7 +26,7 @@
      <h1>SuperM <span class="note">.com</span>
         <input type="search" id="miBusqueda" name="busqueda" style="font.size:50%" placeholder="Buscar Producto"><button> </button>
         </h1> 
-        <h4><a href="<?php echo constant('URL'); ?>main">Iniciar Sesiòn</a></li>/<a href="<?php echo constant('URL'); ?>ayuda">Registrate</a> </h4>    
+        <h4><a href="<?php echo constant('URL'); ?>iniciarsesion">Iniciar Sesiòn</a></li>/<a href="<?php echo constant('URL'); ?>registrarte">Registrate</a> </h4>    
 
     </div>
    

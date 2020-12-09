@@ -2,9 +2,12 @@
 
 class Usuario{
 
-    public $matricula;
+   
     public $nombre;
     public $apellido;
+    public $a_p;
+    public $a_m;
+    
 
 }
 
