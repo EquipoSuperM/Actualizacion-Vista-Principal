@@ -27,30 +27,43 @@
        <h5> Iniciar Sesión</h5> 
        <p style="font-family:Segoe UI Emoji" >
         <input form="email" type="email" name="email" autocomplete="off" placeholder="correo" required>
-         <img scr="<?php echo constant('URL'); ?>uploads/sobre.svg" style="width:20px;height:20px; border:0;"> 
-       </p>
+        <?php
+       //aquí coges de donde sea la ruta que quieres mostrar
+       $ruta4="uploads/sobre.svg";
+        ?>
+        <img style="width:20px;height:20px;" src="<?php echo $ruta4; ?>">
+    
        <p>.
        </p>
        <p style="font-family:Segoe UI Emoji">
         <input form="password" type="password" name="password" minlength="6" autocomplete="off"  placeholder="contraseña" required>
-        <img scr="<?php echo constant('URL'); ?>uploads/login.svg" style="width:20px;height:20px; border:0;"> 
-         
-       </p>
+        <?php
+       //aquí coges de donde sea la ruta que quieres mostrar
+       $ruta5="uploads/login.svg";
+        ?>
+        <img style="width:20px;height:20px;" src="<?php echo $ruta5; ?>">
+    
        
        <nav>
-      
-
+    
       <a type="submit" href="<?php echo constant('URL'); ?>main"  > <p  style="font-family:Segoe UI Emoji">INICIAR SESIÓN</p> </a> 
        </nav>
        <p style="font-family:Segoe UI Emoji">----------------- O conéctate con ------------------- </p>
 
-       
-       <a  href="https://facebook.com" target="iframe" >  <img scr="<?php echo constant('URL'); ?>uploads/facebook.jpg" style="width:70px;height:2¿50px; border:0;"> 
-       <a  href="https://google.com" target="iframe" >  <img scr="<?php echo constant('URL'); ?>uploads/google.jpg" style="width:70px;height:2¿50px; border:0;"> 
-      
-       
-    ____________________________________
+       <?php
+       //aquí coges de donde sea la ruta que quieres mostrar
+       $ruta2="uploads/facebook.jpg";
+        ?>
+        <a  href="https://facebook.com" target="iframe"><img style="width:80px;height:35px;" src="<?php echo $ruta2; ?>">
 
+     
+       <?php
+       //aquí coges de donde sea la ruta que quieres mostrar
+       $ruta3="uploads/google.jpg";
+        ?>
+        <a  href="https://google.com" target="iframe"><img style="width:80px;height:40px;" src="<?php echo $ruta3; ?>">
+    
+    <p>_______________________________________________</p>
     </form>
     <footer> 
         <a href="C:/Users/HP/Documents/SuperM/Principal.html"> <p >Cancelar</p> </a>

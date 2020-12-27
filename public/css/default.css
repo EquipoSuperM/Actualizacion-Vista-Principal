@@ -51,8 +51,6 @@ button {
     background-color: #C4CBD4; 
     border: none;
     color: white;
-    max-width: 4em;
-    min-height: 2em;
     padding: 8px 18px;
     text-align: left;
     text-decoration: none;
@@ -65,7 +63,9 @@ button {
     text-align: right;
     font-family: "Segoe UI Emoji";
     /*sombre*/
-   
+}
+h3{
+    text-align: center;
 }
 .title{
   
