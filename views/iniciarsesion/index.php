@@ -27,26 +27,28 @@
        <h5> Iniciar Sesión</h5> 
        <p style="font-family:Segoe UI Emoji" >
         <input form="email" type="email" name="email" autocomplete="off" placeholder="correo" required>
-         <img src="C:\Users\HP\Documents\SuperM\imagenes/sobre.svg" style="width:20px;height:20px; border:0;" >
-        
+         <img scr="<?php echo constant('URL'); ?>uploads/sobre.svg" style="width:20px;height:20px; border:0;"> 
        </p>
-       
+       <p>.
+       </p>
        <p style="font-family:Segoe UI Emoji">
         <input form="password" type="password" name="password" minlength="6" autocomplete="off"  placeholder="contraseña" required>
-           <img src="C:\Users\HP\Documents\SuperM\imagenes/login.svg" style="width:20px;height:20px; border:0;" >
+        <img scr="<?php echo constant('URL'); ?>uploads/login.svg" style="width:20px;height:20px; border:0;"> 
+         
        </p>
        
        <nav>
       
 
-             <a type="submit" href="<?php echo constant('URL'); ?>main"  > <p  style="font-family:Segoe UI Emoji">INICIAR SESIÓN</p> </a> 
+      <a type="submit" href="<?php echo constant('URL'); ?>main"  > <p  style="font-family:Segoe UI Emoji">INICIAR SESIÓN</p> </a> 
        </nav>
        <p style="font-family:Segoe UI Emoji">----------------- O conéctate con ------------------- </p>
 
        
-       <a  href="https://facebook.com" target="iframe" >  <img src="C:\Users\HP\Documents\SuperM\imagenes/facebook.jpg" style="width:70px;height:2¿50px; border:0;"> </a>
-        <a href="https://google.com/" target="iframe"></a> <img src="C:\Users\HP\Documents\SuperM\imagenes/google.jpg" style="width:70px;height:2¿50px; border:0;"> </a>
-  
+       <a  href="https://facebook.com" target="iframe" >  <img scr="<?php echo constant('URL'); ?>uploads/facebook.jpg" style="width:70px;height:2¿50px; border:0;"> 
+       <a  href="https://google.com" target="iframe" >  <img scr="<?php echo constant('URL'); ?>uploads/google.jpg" style="width:70px;height:2¿50px; border:0;"> 
+      
+       
     ____________________________________
 
     </form>

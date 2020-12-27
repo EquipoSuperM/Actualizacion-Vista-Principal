@@ -61,7 +61,7 @@
        
     <footer> 
     
-    <a href="<?php echo constant('URL'); ?>iniciarsesion"> <p >Aceptar </p> </a>
+    <a href="<?php echo constant('URL'); ?>iniciarsesion" > <p >Aceptar </p> </a>
     </footer>
     <aside> 
         <a href="C:/Users/HP/Documents/SuperM/Login.html"> <p >Cancelar </p> </a>

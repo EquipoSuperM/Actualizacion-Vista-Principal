@@ -11,10 +11,14 @@
 <body>
     <?php require 'views/header.php'; ?>
   
-    <div id="main">
-        <center>
-        <h1>HOLA</h1>
-</center>
+    <div>
+   
+        <?php
+       //aquí coges de donde sea la ruta que quieres mostrar
+       $ruta="uploads/anuncio.png";
+        ?>
+        <img style="width:1365px;height:400px;" src="<?php echo $ruta; ?>">
+    
     </div>
    
 

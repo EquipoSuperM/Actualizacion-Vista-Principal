@@ -9,13 +9,12 @@ body{
 form{
     background: #FFFFFF;  
     width: 400px;
-    height:600px;
+    height:450px;
     border: 1px solid #F90E0E;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     margin: 100px auto;
-    
     
 }
 header{

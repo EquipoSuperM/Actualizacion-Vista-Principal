@@ -16,10 +16,13 @@
 <form>
     
         <center>
-            <p>
-            <td><img scr= "<?php echo "C:\xampp\htdocs\ProyecSuperM\uploads/super.png"; ?>" width="100px" height="100px"></td>
-            </p>
-
+      
+        <?php
+       //aquí coges de donde sea la ruta que quieres mostrar
+       $ruta="uploads/super.png";
+        ?>
+        <img style="width:120px;height:120px;" src="<?php echo $ruta; ?>">
+    
        <header>
       
               <a  href="<?php echo constant('URL'); ?>datosusuario"> <b style="font-family:Segoe UI Emoji">REGISTRATE CON TUS DATOS</b> </a> 
@@ -34,12 +37,21 @@
        <p style="font-family:Segoe UI Emoji">-------------- O REGISTRATE CON ---------------- </p>
        <p> </p>
 
-       <a  href="https://facebook.com" target="iframe" >  <img src="C:\Users\HP\Documents\SuperM\imagenes/facebook.jpg" style="width:80px;height:35px; border:0;"> </a>
-       <p>
+       <?php
+       //aquí coges de donde sea la ruta que quieres mostrar
+       $ruta2="uploads/facebook.jpg";
+        ?>
+        <a  href="https://facebook.com" target="iframe"><img style="width:80px;height:35px;" src="<?php echo $ruta2; ?>">
 
+       <p>
        </p>
-       <a href="https://google.com/" target="iframe"></a> <img src="C:\Users\HP\Documents\SuperM\imagenes/google.jpg" style="width:80px;height:35spx; border:0;"> </a>
- 
+       
+       <?php
+       //aquí coges de donde sea la ruta que quieres mostrar
+       $ruta3="uploads/google.jpg";
+        ?>
+        <a  href="https://google.com" target="iframe"><img style="width:80px;height:40px;" src="<?php echo $ruta3; ?>">
+    
         <footer> 
            <a href="<?php echo constant('URL'); ?>principal"> <p >Cancelar</p> </a>
         </footer>

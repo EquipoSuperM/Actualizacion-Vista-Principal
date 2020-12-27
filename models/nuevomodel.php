@@ -8,8 +8,11 @@ class NuevoModel extends Model{
     public function insert($datos){
 
         try{
-            $query = $this->db->connect()->prepare('INSERT INTO ALUMNOS (MATRICULA, NOMBRE, APELLIDO) VALUES(:matricula, :nombre, :apellido)');
-            $query->execute(['matricula' => $datos['matricula'], 'nombre' =>$datos['nombre'], 'apellido' =>$datos['apellido']]);
+            $query = $this->db->connect()->prepare('INSERT INTO USUARIOS (NOMBREUSUARIO, A_P, A_M,
+            CORREO, CONTRASEÑA, VCONTRASEÑA) VALUES(:nombreusuario, :a_p, :a_m, :correo,
+            :contraseña, :vcontraseña)');
+            $query->execute(['nombreusuario' =>$datos['nombre'], 'a_p' =>$datos['a_p'],'a_m' =>$datos['a_m'],
+            'correo' =>$datos['correo'], 'contraseña' =>$datos['contraseña'], 'vcontraseña' =>$datos['vcontraseña']]);
            return true;
        
         }catch(PDOException $e){

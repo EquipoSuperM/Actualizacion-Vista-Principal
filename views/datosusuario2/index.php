@@ -13,7 +13,7 @@
     <div id="main">  
     <center>
         
-    <form>
+    <form  action="<?php echo constant('URL'); ?>/datosusuario2/registrarUsuarioParte2" enctype="multipart/form-data" method="POST">
         <center>
        <header>
         <center> 
@@ -31,23 +31,23 @@
   <p>.</p>
 
        <p style="font-family:Segoe UI Emoji" >
-        <input type="nombre" name="nombre" autocomplete="off" placeholder="Telefono" > 
+        <input form="telefono" type="telefono" name="telefono" autocomplete="off" placeholder="Telefono" > 
        </p> <p>.</p>
        <p style="font-family:Segoe UI Emoji" >
-        <input type="A_p" name="email" autocomplete="off" placeholder="Direcciòn" >  
+        <input form="direccion" type="direccion" name="direccion" autocomplete="off" placeholder="Direcciòn" >  
        </p> <p>.</p>
        <p style="font-family:Segoe UI Emoji" >
-        <input type="email" name="email" autocomplete="off" placeholder="Codigo Postal" > 
+        <input form="codigo" type="codigo" name="codigo" autocomplete="off" placeholder="Codigo Postal" > 
        </p> <p>.</p>
        <p style="font-family:Segoe UI Emoji" >
-        <input type="email" name="email" autocomplete="off" placeholder="Ciudad" >
+        <input form="ciudad" type="ciudad" name="ciudad" autocomplete="off" placeholder="Ciudad" >
        </p> <p>.</p>
      
 </from>
        
     <footer> 
    
-        <a href="<?php echo constant('URL'); ?>corroborardatos"> <p >Registrarse</p> </a>
+        <a href="<?php echo constant('URL'); ?>corroborardatos" type="submit" id="submit" value="Registrar Usuario"> <p >Registrarse</p> </a>
     </footer>
            </center>
 </form>

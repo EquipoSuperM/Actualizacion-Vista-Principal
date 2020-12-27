@@ -12,8 +12,8 @@
 <?php require 'views/header.php'; ?>
     <div id="main">  
     <center>
-        
-    <form>
+    <div class= "center"><?php echo $this->mensaje;?></div>
+    <form action="<?php echo constant('URL'); ?>/datosusuario/registrarUsuarioParte1" method="POST">
         <center>
        <header>
         <center> 
@@ -31,30 +31,37 @@
   <p>.</p>
 
        <p style="font-family:Segoe UI Emoji" >
-        <input type="nombre" name="nombre" autocomplete="off" placeholder="Nombre" > 
+       <lavel form="nombreusuario">nombre</lavel>
+        <input   type="text" name="nombreusuario" autocomplete="off" placeholder="Nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required/> 
        </p> <p>.</p>
        <p style="font-family:Segoe UI Emoji" >
-        <input type="A_p" name="email" autocomplete="off" placeholder="Apellido Paterno" >  
+       <lavel form="a_p">A p</lavel>
+        <input  type="text" name="a_p" autocomplete="off" placeholder="Apellido Paterno" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required/>  
        </p> <p>.</p>
        <p style="font-family:Segoe UI Emoji" >
-        <input type="email" name="email" autocomplete="off" placeholder="Apellido Materno" > 
+       <lavel form="a_m">A m</lavel>
+        <input  type="text" name="a_m" autocomplete="off" placeholder="Apellido Materno" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required/> 
        </p> <p>.</p>
        <p style="font-family:Segoe UI Emoji" >
-        <input type="email" name="email" autocomplete="off" placeholder="Correo" >
+       <lavel form="correo">correo</lavel>
+        <input  type="email" name="correo" autocomplete="off" placeholder="Correo"  requiered/>
        </p> <p>.</p>
        <p style="font-family:Segoe UI Emoji" >
-        <input type="email" name="email" autocomplete="off" placeholder="Contraseña" > 
+       <lavel form="contraseña">contraseña</lavel>
+        <input type="password" name="contraseña" id="pass1" autocomplete="off" placeholder="Contraseña" requiered/> 
        </p> <p>.</p>
        <p style="font-family:Segoe UI Emoji" >
-        <input type="email" name="email" autocomplete="off" placeholder="Verificar Contraseña" > 
+       <lavel form="vcontraseña">contraseña</lavel>
+        <input  type="password" name="vcontraseña" id="pass2" autocomplete="off" placeholder="Verificar Contraseña" requiered/> 
        </p>
-</from>
-       
-    <footer> 
-    <a href="<?php echo constant('URL'); ?>datosusuario2"> <p >Siguiente</p> </a>
-    </footer>
+
+       </form>
+  <footer> 
+    <a  type="submit" id="submit" value="Registrar Usuario"> <p >Siguiente</p> </a>
+    </footer> 
+    <input type="submit" id="submit" value="Registrar Usuario">
            </center>
-</form>
+           </form>
     </div>
   
 <?php require 'views/footer.php'; ?>    
