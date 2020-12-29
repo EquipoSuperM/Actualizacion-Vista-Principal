@@ -10,16 +10,12 @@
 </head>
 <body>
     <?php require 'views/header.php'; ?>
-  
-    <div>
-   
-        <?php
+    <?php
        //aquí coges de donde sea la ruta que quieres mostrar
-       $ruta="uploads/anuncio.png";
+       $ruta="uploads/anuncio.jpg";
         ?>
         <img style="width:1365px;height:400px;" src="<?php echo $ruta; ?>">
-    
-    </div>
+ 
    
 
     <?php require 'views/footer.php'; ?>
