@@ -56,10 +56,10 @@
        </p>
 
        </form>
-  <footer> 
+ <!-- <footer> 
     <a  type="submit" id="submit" value="Registrar Usuario"> <p >Siguiente</p> </a>
-    </footer> 
-    <input type="submit" id="submit" value="Registrar Usuario">
+    </footer> -->
+    <input type="submit" name="submit" id="submit" value="Registrar Usuario">
            </center>
            </form>
     </div>

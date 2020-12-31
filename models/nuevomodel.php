@@ -11,7 +11,7 @@ class NuevoModel extends Model{
             $query = $this->db->connect()->prepare('INSERT INTO USUARIOS (NOMBREUSUARIO, A_P, A_M,
             CORREO, CONTRASEÑA, VCONTRASEÑA) VALUES(:nombreusuario, :a_p, :a_m, :correo,
             :contraseña, :vcontraseña)');
-            $query->execute(['nombreusuario' =>$datos['nombre'], 'a_p' =>$datos['a_p'],'a_m' =>$datos['a_m'],
+            $query->execute(['nombreusuario' =>$datos['nombreusuario'], 'a_p' =>$datos['a_p'],'a_m' =>$datos['a_m'],
             'correo' =>$datos['correo'], 'contraseña' =>$datos['contraseña'], 'vcontraseña' =>$datos['vcontraseña']]);
            return true;
        

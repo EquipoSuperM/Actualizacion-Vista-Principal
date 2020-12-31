@@ -45,7 +45,6 @@
 
        <p>
        </p>
-       
        <?php
        //aquí coges de donde sea la ruta que quieres mostrar
        $ruta3="uploads/google.jpg";
