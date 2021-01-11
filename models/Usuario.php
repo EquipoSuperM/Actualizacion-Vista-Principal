@@ -9,14 +9,6 @@ class Usuario{
     public $correo;
     public $contraseña;
     public $vcontraseña;
-    public $telefono;
-    public $direccion;
-    public $codigo;
-    public $ciudad;
-    
-
-    
-
 }
 
 ?>

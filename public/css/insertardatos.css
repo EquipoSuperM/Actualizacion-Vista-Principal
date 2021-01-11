@@ -55,16 +55,7 @@ form button{
     height: 30px;
     
 }
-button {
-    background-color: #3B5998; /* Green */
-    border: none;
-    color: white;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-  }
+
   h2{
     color:#0E0E0F;
     margin: 0.25em auto;
@@ -98,7 +89,7 @@ b{
     /*sombre*/
     text-shadow: 5px 5px 10px rgba(255,255,255,0.7);
 }
-footer{
+button{
     background: #C4CBD4;
     border: 1px solid #707070;
     border-radius: 0.9em;

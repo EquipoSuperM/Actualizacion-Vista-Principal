@@ -13,7 +13,7 @@
     <div id="main">  
     <center>
     <div class= "center"><?php echo $this->mensaje;?></div>
-    <form action="<?php echo constant('URL'); ?>/datosusuario/registrarUsuarioParte1" method="POST">
+    <form action="<?php echo constant('URL'); ?>/datosusuario/registrarUsuario" method="POST">
         <center>
        <header>
         <center> 
@@ -31,39 +31,40 @@
   <p>.</p>
 
        <p style="font-family:Segoe UI Emoji" >
-       <lavel form="nombreusuario">nombre</lavel>
-        <input   type="text" name="nombreusuario" autocomplete="off" placeholder="Nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required/> 
+       <lavel form="nombreusuario"></lavel>
+        <input   type="text" name="nombreusuario" id=""  placeholder="Nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required/> 
        </p> <p>.</p>
        <p style="font-family:Segoe UI Emoji" >
-       <lavel form="a_p">A p</lavel>
-        <input  type="text" name="a_p" autocomplete="off" placeholder="Apellido Paterno" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required/>  
+       <lavel form="a_p"></lavel>
+        <input  type="text" name="a_p" id=""  placeholder="Apellido Paterno" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required/>  
        </p> <p>.</p>
        <p style="font-family:Segoe UI Emoji" >
-       <lavel form="a_m">A m</lavel>
-        <input  type="text" name="a_m" autocomplete="off" placeholder="Apellido Materno" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required/> 
+       <lavel form="a_m"></lavel>
+        <input  type="text" name="a_m" id="" placeholder="Apellido Materno" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required/> 
        </p> <p>.</p>
        <p style="font-family:Segoe UI Emoji" >
-       <lavel form="correo">correo</lavel>
-        <input  type="email" name="correo" autocomplete="off" placeholder="Correo"  requiered/>
+       <lavel form="correo"></lavel>
+        <input  type="email" name="correo" id=""  placeholder="Correo"  requiered/>
        </p> <p>.</p>
        <p style="font-family:Segoe UI Emoji" >
-       <lavel form="contraseña">contraseña</lavel>
-        <input type="password" name="contraseña" id="pass1" autocomplete="off" placeholder="Contraseña" requiered/> 
+       <lavel form="contraseña"></lavel>
+        <input type="password" name="contraseña" id="pass1"  placeholder="Contraseña" requiered/> 
        </p> <p>.</p>
        <p style="font-family:Segoe UI Emoji" >
-       <lavel form="vcontraseña">contraseña</lavel>
-        <input  type="password" name="vcontraseña" id="pass2" autocomplete="off" placeholder="Verificar Contraseña" requiered/> 
+       <lavel form="vcontraseña"></lavel>
+        <input  type="password" name="vcontraseña" id="pass2"  placeholder="Verificar Contraseña" requiered/> 
        </p>
 
-       </form>
- <!-- <footer> 
-    <a  type="submit" id="submit" value="Registrar Usuario"> <p >Siguiente</p> </a>
-    </footer> -->
-    <input type="submit" name="submit" id="submit" value="Registrar Usuario">
-           </center>
-           </form>
-    </div>
-  
+       
+ <button> 
+    <a href="<?php echo constant('URL'); ?>datosusuario2"  type="submit" id="submit" value="Registrar Usuario"> <p >Siguiente</p> </a>
+    </button> 
+  <!--  <input type="submit" name="submit" id="submit" value="Registrar Usuario">
+           </center> -->
+          
+    </div> 
+
+    </form>
 <?php require 'views/footer.php'; ?>    
 </body>
 </html>
