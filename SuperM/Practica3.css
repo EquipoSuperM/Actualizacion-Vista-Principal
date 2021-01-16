@@ -1,0 +1,139 @@
+/*
+1. Primero se deficen los estilos para ETIQUETAS html, por ejemplo: header, footer, div, a, p, etc.
+2. Despues se definen los estilos para IDENTIFICADORES (id), loa id´s son elementos unicos en el html, en el
+ css se declaran con el simbolo de # ejemplo: #nombrw-id(estilos) y en el html se llaman mediante el atributo
+  id ejemplo <div id="publicidad"><div>
+3. Al final se definen los estilos para las CLASES (class), las clases son elementos que se pueden repetir 'n'
+veses en el html, en css se declaran con el simbolo de. ejemplo: .nombre-clase{estilos} y en el html se llaman
+mediante el atributo class, ejemplo <div class="borde-logos"></div>
+4. Todos los estilos se ordenan conforme van apareciendo en la disposicion del html, teniendo en cuenta la propiedad 
+anterior es decir primero etiquetas html luego id's y al final clases.
+5. Los atributos se declaran de la siguetne forma: {atributo1:valor1; atributo2:valor2;.... atributoN:valorN;}
+6. Todos los atributos se ordenan alfabeticamente, por ejemplo si tengo width, colo, display, entonces el
+orden seria: primero color, luego display y al final width.
+7. Si tenemos estilos para el comodin *, o para las etiquetas html y/O body, estos estilos son los primeros en
+definirser
+8. En el body debemos declara un tamaño de fuente global
+9. Si tenemos estilos para resetear elementos html, estos iran antes de cualquier estilo.
+*/
+
+*{
+    margin: 0;
+    padding: 0; /*espacio que hay entre un objeto y el texto*/
+}
+/* 16=12pt=100%=1em*/
+body{
+    background: #fff;
+    color: #fff;
+    font-family: "Segoe UI Emoji";
+    font-size: 2em;
+   
+}
+
+
+h2{
+    color:#0E0E0F;
+    margin: 0.25em auto;
+    font-family: "Segoe UI Emoji";
+    text-align: left;
+    /*sombre*/
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.3);
+}
+h5{
+    color:#0E0E0F;
+    margin: 0.25em auto;
+    text-align: right;
+    font-family: "Segoe UI Emoji";
+    /*sombre*/
+   
+}
+header{
+    background: #FFD856;
+     border-radius: 0em;
+    margin: 0em auto;
+    max-width: 2000px;
+    padding: 0em;
+    min-height: 50px;
+    text-align: center;
+}
+nav{
+    background:#FFB039;
+     border-radius: 0em;
+    margin: 0em auto;
+    max-width: 2000px;
+    padding: 0.25em;
+    min-height: 50px;
+    text-align: center;
+}
+
+
+section#principal,aside{
+    background: #C4CBD4;
+    border-radius: 0em;
+    min-height: 600px;
+    max-width: 2000px;
+    padding: 0.25em;
+    text-align: center;
+    margin: 0.5em auto;
+    text-align: center;
+}
+article{
+    background: #fff;
+    border-radius: 0em;
+    min-height: 500px;
+    max-width: 2000px;
+    padding: 0.25em;
+}
+aside{
+    width: 30%;
+}
+footer{
+    background: #FFD856;
+    border-radius: 0em;
+    margin: 0em auto;
+    max-width: 2000px;
+    padding: 0em;
+    min-height: 50px;
+    text-align: center;
+
+   
+}
+ button {
+    background-color: #C4CBD4; 
+    border: none;
+    color: white;
+    max-width: 5em;
+    min-height: 3em;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+  .mini{
+    font-family: "Segoe UI Emoji";
+    text-align: right;
+    font-size: 80%;
+  }
+.ima{
+    width:90px;height:60px
+}
+.title{
+  
+        color:#0E0E0F;
+        margin: 0.25em auto;
+        font-family: "Segoe UI Emoji";
+  
+}
+.nombre{
+    color:#0E0E0F;
+    margin: 0.25em auto;
+    text-align: left;
+    font-family: "Segoe UI Emoji";
+}
+.yare{
+    color:#0E0E0F;
+    margin: 0.25em auto;
+    text-align: left;
+    font-family: "Segoe UI Emoji";
+}

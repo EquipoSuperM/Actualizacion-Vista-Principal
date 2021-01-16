@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #FFFFFF;
+    background-position: center;
+}
+form{
+    background: #FFFFFF;  
+    width: 600px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin: 100px auto;
+    
+}
+header{
+    background: #FFD856;
+    border: 1px solid #E2EBF3;
+    border-radius: 0em;
+    margin: 0em auto;
+    max-width: 600px;
+    padding: 0.25em;
+    text-align: center;
+    font-weight: 'Segoe UI Emoji';
+    font-size: 20px;
+  }
+  b{
+    color:rgb(19, 19, 151);
+    margin: 0.25em auto;
+    font-family: "Segoe UI Emoji";
+    text-align: center;
+    font-size: 25px;
+    /*sombre*/
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.3);
+}
+
+table{
+    background: #FFFFFF;
+    border: 1px solid #E2EBF3;
+    border-radius: 0em;
+    margin: 0em auto;
+    max-width: 600px;
+    padding: 0em;
+    text-align: center;
+    font-weight: 'Segoe UI Emoji';
+    font-size: 20px;
+  }
